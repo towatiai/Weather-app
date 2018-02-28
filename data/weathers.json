@@ -1,0 +1,48 @@
+{
+  "cities": [
+    {
+      "name": "Tokyo",
+      "id": "tokio",
+      "lat": 35.6584421,
+      "lon": 139.7328635,
+      "weather": []
+    },
+    {
+      "name": "Helsinki",
+      "id": "helsinki",
+      "lat": 60.169753,
+      "lon": 24.949083,
+      "weather": []
+    },
+    {
+      "name": "New York",
+      "id": "newyork",
+      "lat": 40.7406905,
+      "lon": -73.9938438,
+      "weather": [
+        {
+          "temp": "32.2",
+          "date": "Wed Feb 28 2018 16:32:04 GMT+0200 (EET)"
+        },
+        {
+          "temp": "50.55555555555556",
+          "date": "Wed Feb 28 2018 16:32:15 GMT+0200 (EET)"
+        }
+      ]
+    },
+    {
+      "name": "Amsterdam",
+      "id": "amsterdam",
+      "lat": 52.3650691,
+      "lon": 4.9040238,
+      "weather": []
+    },
+    {
+      "name": "Dubai",
+      "id": "dubai",
+      "lat": 25.092535,
+      "lon": 55.1562243,
+      "weather": []
+    }
+  ]
+}

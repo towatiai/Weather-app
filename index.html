@@ -1,0 +1,116 @@
+<!-----------------------------------------------------------------
+            -*- Weather app (HTML) -*-
+
+    @author: Toni Tiainen
+    @version: 27.2.2018
+
+------------------------------------------------------------------>
+
+
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Reaktor - Weathers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/weather.js"></script>
+    <!-- <script type="application/json" src="data/weathers.json"></script> -->
+    <link rel="StyleSheet" href="styles/weather.css" type="text/css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_name">
+            <h1>Weather Around The World</h1>
+        </div>
+        <div class="unit_container">
+            <div class="unit_C">
+                <h3>&deg;C</h3>
+            </div>
+            <div class="unit_F">
+                <h3>&deg;F</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="weather_container"></div>
+
+    <div id="inputAndData">
+
+        <form class="form">
+            <div class="form_div">
+                <div class="form_header">
+                    <h3>
+                        Add new weather
+                    </h3>
+                </div>
+
+                <div class="input_field">
+                    <h4>Temperature</h4>
+                    <div id="temperature_and_unit">
+                        <input type="text" id="input_temperature" size="6" maxlength="6">
+                        <select id="unit_select">
+                            <option>&deg;C</option>
+                            <option>&deg;F</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <h4>Location</h4>
+                    <select id="city_select">
+                    </select>
+                </div>
+            </div>
+            <div id="input_error">
+
+            </div>
+            <button id="form_button">Save</button>
+        </form>
+
+
+        <div class="data_container">
+            <div class="data_header">
+                <h3 class="data_name">
+                    Weather from every city
+                </h3>
+                <ul class="data_listnames">
+                    <li class="data_header_temp">
+                        <p>Temperature</p>
+                        <div class="temp_img"></div>
+                    </li>
+                    <li class="data_header_date">
+                        <p>Date</p>
+                        <div class="date_img"></div>
+                    </li>
+                    <li class="data_header_city">
+                        <p>City</p>
+                        <div class="city_img"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="data">
+                <nav>
+                    <ul class="data_list"></ul>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+
+<div class="footer">
+    <div class="footer_right">
+        <p style="color: white; font-size: 16px">Toni Tiainen</p>
+        <a href="https://github.com/towatiai/reaktor_summer2018" style="width: 42px; height: 42px;">
+            <img src="images/GitHub-Mark-Light-64px.png" style="width:42px;height:42px;">
+        </a>
+        <a href="https://www.linkedin.com/in/twtiainen/" style="width: 41px; height: 41px;">
+            <img src="images/In-White-41px-TM.png">
+        </a>
+    </div>
+</div>
+
+</body>
+
+</html>
