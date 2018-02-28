@@ -13,7 +13,6 @@ This web-application was created as a part of Reaktor's summer job application 2
 - Receives and handles GET and POST commands
 - Responds to those commands
 
-All 
 
 ## Suomeksi:
 Tämä web-ohjelma tehtiin osaksi Reaktorin kesätyöhakemusta 2018.
